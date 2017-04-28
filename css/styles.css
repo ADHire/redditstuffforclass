@@ -1,0 +1,78 @@
+body {
+  background-color: white;
+  font-family: 'Righteous';
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title, .author, .infoBox p {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.suppp {
+  display: none;
+}
+
+.suppp h2, .suppp p {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FF69B4;
+  font-size: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.infoBox {
+  vertical-align: top;
+  width: 30%;
+  height: 350px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(255, 151, 204);
+  border: 2px solid grey;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  display: none;
+}
+
+button {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  font-family: 'Righteous', monospace;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-top: 300px;
+  color: #FF69B4;
+  font-size: 40px;
+  background-color: grey;
+  text-transform: uppercase;
+  border: 2px solid #FF69B4;
+}
+
+#question {
+  display: none;
+}
+
+button:hover {
+  border: 2px outset white;
+  color: white;
+}
+
+button:active {
+  border: 2px inset white;
+}
+
+.container img:hover {
+  border: 2px solid white;
+}
